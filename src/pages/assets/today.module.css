@@ -1,0 +1,29 @@
+.myTable {
+    width: 80%;
+    height: auto;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.myTable th {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+.myTable tr {
+    transition: background-color 0.3s;
+    height: 70px;
+}
+
+.myTable tr.selected {
+    background-color: #f5f5ba;
+    color: black;
+}
+
+.myTable tr.deleted {
+    text-decoration: line-through;
+    color: #999;
+}
