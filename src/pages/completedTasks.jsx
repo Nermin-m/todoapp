@@ -2,7 +2,6 @@
 import React, { useContext } from 'react';
 import { MyContext } from './context/context';
 import style from "./assets/mainbox.module.css";
-import purple from "./assets/77a58PICX6fAU496cafYc_PIC2018.png_300-removebg-preview.png";
 
 function ImportedTasks() {
     const { state } = useContext(MyContext);

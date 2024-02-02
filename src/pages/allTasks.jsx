@@ -1,7 +1,7 @@
 import style from './assets/alltsk.module.css';
 import React, { useContext } from 'react';
 import { MyContext } from './context/context';
-import purple from './assets/77a58PICX6fAU496cafYc_PIC2018.png_300-removebg-preview.png';
+import purple from './assets/purple.png';
 
 function AllTasks(props) {
     const { state } = useContext(MyContext);
